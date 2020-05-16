@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # War Camel Servlet QuickStart
 
 This example demonstrates how you can use Servlet to expose a http
@@ -59,3 +60,6 @@ hostname is valid for you.
 
 You can find more details about running this [quickstart](http://fabric8.io/guide/quickstarts/running.html) on the website. This also includes instructions how to change the Docker image user and registry.
 
+=======
+# Jenkinsproject
+>>>>>>> 025f869b09609bdfe292cfc872a5bd379030ff08
