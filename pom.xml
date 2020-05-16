@@ -30,9 +30,7 @@
 
 	<properties>
 		<axis2.version>1.7.9</axis2.version>
-		<maven.compiler.source>1.6</maven.compiler.source>
-                <maven.compiler.target>1.6</maven.compiler.target>
-	</properties>
+        </properties>
 
 	<dependencies>
 		<dependency>
@@ -55,12 +53,12 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<configuration>
-					<source>1.5</source>
-					<target>1.5</target>
-				</configuration>
+				 <groupId>org.apache.maven.plugins</groupId>
+                                 <artifactId>maven-compiler-plugin</artifactId>
+                                 <configuration>
+                                     <source>1.6</source>
+                                     <target>1.6</target>
+                                 </configuration>
 			</plugin>
 
 			<plugin>
