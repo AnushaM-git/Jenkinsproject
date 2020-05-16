@@ -17,7 +17,7 @@
  * under the License.
  */
 
-package project-1;
+package project-1
 
 public class SimpleService {
     
