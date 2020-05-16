@@ -31,6 +31,10 @@
 	<properties>
 		<axis2.version>1.7.9</axis2.version>
 	</properties>
+	<properties>
+                <maven.compiler.source>1.6</maven.compiler.source>
+                <maven.compiler.target>1.6</maven.compiler.target>
+        </properties>
 
 	<dependencies>
 		<dependency>
