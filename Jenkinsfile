@@ -3,7 +3,7 @@ pipeline{
     label 'master'
   }
   stages{
-    stage("git_checkout){
+    stage("git_checkout"){
       steps{
       
       }
@@ -13,7 +13,7 @@ pipeline{
         sh 'mvn clean package'
       }
     }
-    stage("upload_artifact){
+    stage("upload_artifact"){
       steps{
         echo "upload completed"
       }
