@@ -1,0 +1,21 @@
+pipeline {
+   agent any
+    environment{
+        ANUSHA_USER_PSSWD_CRED = credentials('ANUSHA')
+        SECRET_FILE_CRED = credentials('SECRET_FILE')
+        SECRET_TEXT_CRED = credentials('SECRET_TEXT')
+    }    
+   stages {
+      stage('calling env user credentials') {
+         steps {
+            bat "echo ' this is my sceret file credentials: $SECRET_FILE_CRED"
+            bat "echo 'this are my crederntials : $ANUSHA_USER_PSSWD_CRED_USR, $ANUSHA_USER_PSSWD_CRED_PSW'"
+         }
+      }
+      stage('calling seret test credenrials'){
+          steps{
+              bat "echo 'this is my screst text cred: $SECRET_TEXT_CRED'"
+          }
+      }
+   }
+}
